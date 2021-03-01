@@ -12,3 +12,5 @@ My EFI is setup for Opencore's GUI interface.  You will need to modify serveral 
 Turbo Boost Unlock for dual E5-2678v3 Xeon.  My EFI includes extra driver V3.efi to support turbo boost unlock on all cores (3.3Ghz on all cores).  You must use modified bios with microcode removed AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True" (this is already setup correctly in my EFI).
 
 Good Luck!
+
+If you purchased RX580 from China such as XFX RX580, the Chinese versions are often RX570 with over-clocked bios and will not boot into MacOS.  You will need to reflash the bios to RX570 (I used Saphhire Pulse RX570 from TechPowerUp VGA Bios Collection & now works fine).  GPU flashing software is listed on TechPowerUP website but only runs in Windows.
