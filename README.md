@@ -15,4 +15,4 @@ Turbo Boost Unlock for dual E5-2678v3 Xeon.  My EFI includes extra driver V3.efi
 
 Good Luck!
 
-If you purchased RX580 from China such as XFX RX580, the Chinese versions are often RX570 with over-clocked bios and will not boot into MacOS.  You will need to reflash the bios to RX570 (I used Saphhire Pulse RX570 from TechPowerUp VGA Bios Collection & now works fine).  GPU flashing software is listed on TechPowerUP website but only runs in Windows.
+4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR
