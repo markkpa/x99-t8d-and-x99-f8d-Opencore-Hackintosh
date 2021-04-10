@@ -17,5 +17,5 @@ Turbo Boost Unlock for dual E5-2678v3 Xeon.  My EFI includes extra driver V3.efi
 
 Good Luck!
 
-4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR
+4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR.
 4/10/2021 - added futher power management with CPUFriend (using CPUFriendFriend).
