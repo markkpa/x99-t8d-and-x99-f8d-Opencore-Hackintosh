@@ -1,5 +1,5 @@
 # x99-t8d-and-x99-f8d-Opencore-Hackintosh
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.6.7 and Big Sur & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.6.8 and Big Sur & RX570 Pulse 4GB graphics card.
 
 THIS NOW INCLUDES APPLEALC FOR REALTEK ALC887 (previous version used VoodooHDA).  Also includes a customized slide value in boot args.  And includes my USB mapping.
 
