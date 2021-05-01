@@ -13,7 +13,7 @@ My EFI is setup for FileVault encryption.  You will need to modify several setti
 
 My EFI is setup for Opencore's GUI interface.  You will need to modify serveral settings if you do not wish to use Opencore's GUI (refer to https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html)
 
-Turbo Boost Unlock for dual E5-2678v3 Xeon.  My EFI includes extra driver V3.efi to support turbo boost unlock on all cores (3.3Ghz on all cores).  You must use modified bios with microcode removed AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True" (this is already setup correctly in my EFI).
+Turbo Boost Unlock for dual E5-2678v3 Xeon.  You must use modified bios with microcode removed AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True" (this is already setup correctly in my EFI).
 
 Good Luck!
 
