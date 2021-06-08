@@ -1,7 +1,7 @@
 # x99-t8d-and-x99-f8d-Opencore-Hackintosh
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
 
-Now includes AppleALC for REALTEK ALC887 (I no longer use VoodooHDA).  Also, power management much improved.  Includes a customized slide value in boot args.  Includes my USB mapping (you may want to delete my USBPorts.kext and instead use USBInjectAll.kext with XhciPortLimit set to True to create your own USB map.
+Now includes AppleALC for REALTEK ALC887 (I no longer use VoodooHDA).  Also, power management much improved.  Includes a customized slide value in boot args.  Includes my USB mapping (you may want to delete my USBPorts.kext and instead use USBInjectAll.kext with XhciPortLimit set to True to create your own USB map).
 
 I have a multiboot system including macos Big Sur, Windows 10, PopOS and Qubes.  I am NOT using opencore as a bootloader for Windows 10, PopOS and Qubes.  Therefore, I am no longer including the V3.EFI turbo boot unlock DXE driver in the opencore Drive folder.  Instead, I am injecting this driver directly into the bios using Shellx64.efi on a MSDOS formated USB called LOADV3 - files included.  I use .nsh script to automatically load the V3.EFI into FS0: (I have several scripts depending on where the USB is mounted (FS1-loadv3.nsh, FS2-loadv3.nsh, FS3-loadv3.nsh, FS7-loadv3.nsh).  Windows 10, PopOS & Qubes are much more stable being booted directly to the original bios rather than through opencore.  
 
