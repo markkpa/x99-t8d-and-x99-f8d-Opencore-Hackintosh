@@ -20,3 +20,5 @@ Turbo Boost Unlock for dual E5-2678v3 Xeon.  You must use modified bios AND unde
 4/10/2021 - added futher power management with CPUFriendDataProvider.kext per following reference:  https://github.com/fewtarius/CPUFriendFriend
 
 6/16/2021 - newest x99f8dM.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-2678-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/svobodin 
+
+See Issues if you are trying to install earlier than Big Sur 11.3.  Also, see Issues if you are using a different graphics card than mine.
