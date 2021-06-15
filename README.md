@@ -1,4 +1,4 @@
-# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock built directly into the bios.
+# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
 
 Includes my USB mapping (you may want to create your own using open core documentation).
