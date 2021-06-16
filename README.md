@@ -1,4 +1,6 @@
-# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.  ***USB Port Maps ARE NOW FIXED***  All USB 3.0 ports work for USB 3.0 & USB 2.0 except the one USB 3.0 port in front and the 3rd USB 3.0 port in the back will NOT work for USB 2.0.  All USB 2.0 ports are working.
+# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.  ***USB Port Maps ARE NOW FIXED***
+
+All USB 3.0 ports work for USB 3.0 & USB 2.0 except the one USB 3.0 port in front and the 3rd USB 3.0 port in the back will NOT work for USB 2.0.  All USB 2.0 ports are working.
 
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
 
@@ -14,12 +16,12 @@ My EFI is setup for FileVault encryption.  You will need to modify several setti
 
 My EFI is setup for Opencore's GUI interface.  You will need to modify serveral settings if you do not wish to use Opencore's GUI (refer to https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html).  I have Misc --> HideAuxillary set to True to hide the Nvram-Reset feature (can be dangerous to use).  Instead of Nvram-Reset, I use LauncherOption set to Full.  When you make changes, boot directly into your USB to overwrite the older OpenCore bootloader - this way you create a new OpenCore bootloader from the changes you saved to your USB (I suggest rebooting one time after creating a new OpenCore bootloader - before you use the new bootloader).  If you have made many changes to the kext folder, it is often helpful to rebuild kextcache with "sudo kextcache -i /"
 
-Turbo Boost Unlock for dual E5-2678v3 Xeon.  You must use modified bios AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True".
+Turbo Boost Unlock for dual E5-xxxx v3 Xeon.  You must use modified bios AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True".
 
 4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR
 
 4/10/2021 - added futher power management with CPUFriendDataProvider.kext per following reference:  https://github.com/fewtarius/CPUFriendFriend
 
-6/16/2021 - newest x99f8dM.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-2678-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/svobodin 
+6/16/2021 - newest x99f8dM.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/svobodin 
 
 See Issues if you are trying to install earlier than Big Sur 11.3.  Also, see Issues if you are using a different graphics card than mine.
