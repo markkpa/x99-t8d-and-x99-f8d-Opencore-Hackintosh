@@ -1,5 +1,4 @@
-# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.
-USB Port Maps ARE NOW FIXED
+# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.  USB Port Maps ARE NOW FIXED
 
 All USB 3.0 ports work for USB 3.0 & USB 2.0 except the one USB 3.0 port in front and the 3rd USB 3.0 port in the back will NOT work for USB 2.0.  All USB 2.0 ports are working.
 
