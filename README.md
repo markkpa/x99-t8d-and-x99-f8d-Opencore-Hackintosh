@@ -1,4 +1,5 @@
-# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.
+# x99-t8d-and-x99-f8d-Opencore-Hackintosh with turbo boost unlock bios.  ***USB Port Maps ARE NOW FIXED***  All USB 3.0 ports work for USB 3.0 & USB 2.0 except the one USB 3.0 port in front and the 3rd USB 3.0 port in the back will NOT work for USB 2.0.  All USB 2.0 ports are working.
+
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
 
 Includes my USB mapping (you may want to create your own using open core documentation).
