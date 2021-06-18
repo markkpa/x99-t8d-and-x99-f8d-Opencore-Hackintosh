@@ -1,7 +1,5 @@
 I had to create another USB Map to fix a different problem - I think I've got it now. USB Port Maps should now be FIXED.
 
-All USB 3.0 ports work for USB 3.0 & USB 2.0 except the one USB 3.0 port in front and the 3rd USB 3.0 port in the back will NOT work for USB 2.0.  All USB 2.0 ports are working.  The previous map may have caused  network stuttering issues which also appear to be solved.
-
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
 
 I have a multiboot system including macos Big Sur, Windows 10, PopOS and Qubes.  I am NOT using opencore as a bootloader for Windows 10, PopOS and Qubes.   Windows 10, PopOS & Qubes are much more stable being booted directly to the original bios rather than through opencore.  
