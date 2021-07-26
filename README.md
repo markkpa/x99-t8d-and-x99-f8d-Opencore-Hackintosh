@@ -1,6 +1,6 @@
 I had to create another USB Map to fix a different problem - I think I've got it now. USB Port Maps should now be FIXED.
 
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.0 and Big Sur & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.1 and Big Sur & RX570 Pulse 4GB graphics card.
 
 I have a multiboot system including macos Big Sur, Windows 10, PopOS and Qubes.  I am NOT using opencore as a bootloader for Windows 10, PopOS and Qubes.   Windows 10, PopOS & Qubes are much more stable being booted directly to the original bios rather than through opencore.  
 
