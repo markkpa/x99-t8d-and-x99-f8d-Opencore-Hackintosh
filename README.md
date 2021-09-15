@@ -1,4 +1,4 @@
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.2 and Big Sur & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.3 and Big Sur or Monterey & RX570 Pulse 4GB graphics card.
 
 I have a multiboot system including macos Big Sur, Windows 10, Ubuntu and Qubes.  I am NOT using opencore as a bootloader for Windows 10, PopOS and Qubes.   Windows 10, PopOS & Qubes are much more stable being booted directly to the original bios rather than through opencore.  
 
