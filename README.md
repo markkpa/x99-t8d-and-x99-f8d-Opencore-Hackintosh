@@ -1,6 +1,6 @@
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.5 and Big Sur or Monterey 12.0.1 & RX570 Pulse 4GB graphics card.
 
-For Monterey Beta 6 (Preview).  After install, if you are caught in a continuous reboot loop; then change securebootmodel to x86legacy (instead of Disabled).
+For Monterey - if after install you are caught in a continuous reboot loop; then change securebootmodel to x86legacy (instead of Disabled).
 
 I have a multiboot system including macos Big Sur, Windows 10, Ubuntu and Qubes.  I am NOT using opencore as a bootloader for Windows 10, PopOS and Qubes.   Windows 10, PopOS & Qubes are much more stable being booted directly to the original bios rather than through opencore (press F7 for bootloader).
 
