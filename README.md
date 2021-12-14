@@ -20,7 +20,6 @@ Turbo Boost Unlock for dual E5-xxxx v3 Xeon.  You must use modified bios AND und
 
 4/10/2021 - added futher power management with CPUFriendDataProvider.kext per following reference:  https://github.com/fewtarius/CPUFriendFriend
 
-6/16/2021 - newest x99f8dN.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Instructions-for-unlocking-the-maximum-frequency-for-all-cores-not-two-unlock and 
-https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/
+6/16/2021 - newest x99f8dN.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Instructions-for-unlocking-the-maximum-frequency-for-all-cores-not-two-unlock and https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/#_DXE
 
 See Issues if you are trying to install earlier than Big Sur 11.3.  Also, see Issues if you are using a different graphics card than mine.
