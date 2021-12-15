@@ -1,6 +1,6 @@
 UPDATED BIOS TO LATEST VERSION (x99-f8dN.rom).  Fixed EFI to support Monterey 12.1 (the updates now automatically download from Apple).
 
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.6 and Monterey 12.0.1 & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.6 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
 
 For Monterey - if after install you are caught in a continuous reboot loop; then change securebootmodel to x86legacy (instead of Disabled).
 
