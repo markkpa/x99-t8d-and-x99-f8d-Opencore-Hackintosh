@@ -1,6 +1,4 @@
-UPDATED BIOS TO LATEST VERSION (x99-f8dN.rom).  Fixed EFI to support Monterey 12.1 (the updates now automatically download from Apple).
-
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.6 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.7 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
 
 I have a multiboot system including macos Monterey, Windows 10, Ubuntu.  I am NOT using opencore as a bootloader for Windows 10, Ubuntu - they are much more stable being booted directly to the original bios rather than through opencore (press F7 for bootloader).
 
