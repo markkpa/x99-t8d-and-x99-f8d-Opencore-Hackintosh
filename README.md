@@ -2,7 +2,7 @@ For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.7
 
 I have a multiboot system including macos Monterey, Windows 10, Ubuntu.  I am NOT using opencore as a bootloader for Windows 10, Ubuntu - they are much more stable being booted directly to the original bios rather than through opencore (press F7 for bootloader).
 
-Notes:  attached files are based on using modified x99-f8d bios (even though my motherboard is actually x99-t8d), bios has been modified to support turbo-boost unlock on all cores.  The x99-f8d bios will work with x99-t8d motherboard using DDR3 memory.  However, you may want to remove onboard speaker as it makes loud sound on x99-t8d motherboard.  Also, x99-f8d bios will give faster performance on the x99-t8d motherboard - test scores will be better using x99-f8d bios even though memory timing features are missing.  To update bios, use Rufus in Windows to prepare bootable USB using FreeDOS; afterwards add 3 attached file:  9.bat, AFUDOS.exe and x99f8dN.rom.  Reboot in legacy mode to USB and execute 9.bat file.  I have included photos of my bios settings in "Bios_Settings.zip".  In my bios settings I have hyperthreading disabled as a personal preference as it improves single core performance.  However, hyperthreading enabled will work just fine.
+Notes:  attached files are based on using modified x99-f8d bios (even though my motherboard is actually x99-t8d), bios has been modified to support turbo-boost unlock on all cores.  The x99-f8d bios will work with x99-t8d motherboard using DDR3 memory.  However, you may want to remove onboard speaker as it makes loud sound on x99-t8d motherboard.  To update bios, use Rufus in Windows to prepare bootable USB using FreeDOS; afterwards add 3 attached file:  9.bat, AFUDOS.exe and x99f8dN.rom.  Reboot in legacy mode to USB and execute 9.bat file.  I have included photos of my bios settings in "Bios_Settings.zip".  In my bios settings I have hyperthreading disabled as a personal preference as it improves single core performance.  However, hyperthreading enabled will work just fine.
 
 Regarding Opencore, obviously, my EFI file excludes my Serial Number, MLB, SmUUID & ROM - you must add your own before using the EFI.
 
@@ -13,8 +13,6 @@ My EFI is setup for Opencore's GUI interface.  You will need to modify serveral 
 Turbo Boost Unlock for dual E5-xxxx v3 Xeon.  You must use modified bios AND under Kernel -> Quirks you must set AppleXcpmForceBoost to "True".
 
 4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR
-
-4/10/2021 - added futher power management with CPUFriendDataProvider.kext per following reference:  https://github.com/fewtarius/CPUFriendFriend
 
 6/16/2021 - newest x99f8dN.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -75mv, -50 cache, -50 sys agent.  It is no longer necessary to manually inject FFS driver into the EFI if you use this latest bios.  Thanks to https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Instructions-for-unlocking-the-maximum-frequency-for-all-cores-not-two-unlock and https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/#_DXE
 
