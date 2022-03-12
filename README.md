@@ -1,5 +1,5 @@
 Added new bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
-The new bios appears to perform well for all CPU's including E5-2678v3.  I will likely discontinue the old bios (x99f8dN.rom).
+The new bios is more stable for all CPU's including E5-2678v3.  I will likely discontinue the old bios (x99f8dN.rom).
 
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.9 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
 
