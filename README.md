@@ -1,5 +1,5 @@
-Added alternate bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
-The standard bios (x99f8dN.rom) may perform better for E5-2678v3.
+Added new bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
+The new bios appears to perform better for all CPU's including E5-2678v3.  I will likely discontinue the old bios (x99f8dN.rom).
 
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.7.9 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
 
@@ -17,6 +17,6 @@ Turbo Boost Unlock for dual E5-xxxx v3 Xeon.  You must use modified bios AND und
 
 4/1/2021 - added power management patch - as per following reference:  https://github.com/Cclown98/X79-X99-X299-OPENCORE-EFI-CATALINA-BIGSUR
 
-6/16/2021 - newest x99f8dN.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -75mv, -50 cache, -50 sys agent.  Thanks to https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Instructions-for-unlocking-the-maximum-frequency-for-all-cores-not-two-unlock and https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/#_DXE
+6/16/2021 - newest x99f8dNa.rom bios has all the necessary modifications to support turbo-boot unlock for dual E5-xxxx-V3 CPU's, -65mv, -60 cache, -60 sys agent.  Thanks to https://github.com/Koshak1013/HuananzhiX99_BIOS_mods#Instructions-for-unlocking-the-maximum-frequency-for-all-cores-not-two-unlock and https://xeon-e5450.ru/socket-2011-3/e5-2600-v3/dobavlyaem-anlok-v-bios-raz-i-navsegda-cherez-s3turbotool/#_DXE
 
 See Issues if you are trying to install earlier than Big Sur 11.3.  Also, see Issues if you are using a different graphics card than mine.
