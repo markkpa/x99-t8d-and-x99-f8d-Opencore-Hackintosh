@@ -1,3 +1,5 @@
+Made a few changes to bios settings on photos 080.jpeg & 142.jpeg (not sure if it will make any difference).
+
 Added new bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
 The new bios is more stable for all CPU's including E5-2678v3.  I will likely discontinue the old bios (x99f8dN.rom).
 
