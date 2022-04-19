@@ -1,7 +1,7 @@
 For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.8.0 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
 
 Added new bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
-The new bios is more stable for all CPU's including E5-2678v3.  I will likely discontinue the old bios (x99f8dN.rom).
+The new bios is more stable for all CPU's including E5-2678v3.
 
 I have a multiboot system including macos Monterey, Windows 10, Ubuntu.  I am NOT using opencore as a bootloader for Windows 10, Ubuntu - they are much more stable being booted directly to the original bios rather than through opencore (press F7 for bootloader).
 
