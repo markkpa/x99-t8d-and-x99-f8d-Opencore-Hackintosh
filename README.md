@@ -1,4 +1,4 @@
-For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.8.0 and Monterey 12.1 & RX570 Pulse 4GB graphics card.
+For Huananzhi x99 Dual CPU Motherboards x99-t8d & x99-f8d - using Opencore 0.8.0 and Monterey 12.3.1 & RX570 Pulse 4GB graphics card.
 
 Added new bios (x99f8dNa.rom) for stability when cores are more than 24 such as E5-2696v3 (-65mv, -60 cache, -60 sys).
 The new bios is more stable for all CPU's including E5-2678v3.
